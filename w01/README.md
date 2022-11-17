@@ -25,11 +25,3 @@ mkdir src dist
 ```bash
 npm run build
 ```
-- 
-```bash
-
-```
-- 
-```bash
-
-```
