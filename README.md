@@ -28,8 +28,12 @@
     ```bash
     mkdir w00
     ```
-    - 使用npm初始化專案 :
+    - 使用 npm 初始化專案 :
     ```bash
     npm init
     ```
-    - 安裝webpack webpack-cli
+    - 使用 npm 在專案中安裝 webpack webpack-cli
+    ```bash
+    npm install webpack webpack-cli --save-dev
+    ```
+    
