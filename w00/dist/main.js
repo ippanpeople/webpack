@@ -1,1 +1,1 @@
-console.log("Hello"),console.log("Webpack");
+console.log("妳好 美女");

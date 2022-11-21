@@ -67,3 +67,17 @@
     ```bash
     npm run build
     ```
+
+4. 利用 npm 安裝簡易的 web 服務器 http-server：
+    - 安裝：
+    ```bash
+    npm install http-server
+    ```
+    - 從當前路徑在3000端口上啟動服務器
+    ```bash
+    npx http-server ./dist/main.js -d -c -a -p 3000
+    ```
+    - http-server版本確定：
+    ```bash
+    npx http-server -v
+    ```
