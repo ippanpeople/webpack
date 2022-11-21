@@ -48,3 +48,13 @@
         }
     }
     ```
+    - 編寫打包 ( webpack ) 時使用的腳本 ( script ):
+    ```bash
+    vim package.json
+    ```
+    ```vim
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack" # 新增自定義 webpack 打包編譯指令為 -> start
+    },
+    ```
