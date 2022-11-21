@@ -1,7 +1,7 @@
 # webpack
 
-### 開發環境建置
-1. 先來安裝個 nvm 吧！
+1. 開發環境建置
+### 先來安裝個 nvm 吧！
     - nvm( Node Version Manager ) : 管理 nodejs 版本的工具
     - 安裝 : curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
     - zsh: command not found: nvm解決 :
@@ -22,3 +22,14 @@
         - npm - v : Node Package Manager版本確定
 
 2. webpack 的核心概念： "注入( entry )"
+
+3. 利用 webpack 建置前端專案 :
+    - 建立專案目錄：
+    ```bash
+    mkdir w00
+    ```
+    - 使用npm初始化專案 :
+    ```bash
+    npm init
+    ```
+    - 安裝webpack webpack-cli
