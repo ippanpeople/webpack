@@ -58,3 +58,12 @@
         "start": "webpack" # 新增自定義 webpack 打包編譯指令為 -> start
     },
     ```
+    - 新增未打包源代碼目錄：
+    ```bash
+    mkdir src
+    touch src/index.js
+    ```
+    - 利用 webpack 對 ./src/index.js 打包編譯：
+    ```bash
+    npm run build
+    ```
