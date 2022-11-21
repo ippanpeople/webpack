@@ -36,4 +36,15 @@
     ```bash
     npm install webpack webpack-cli --save-dev
     ```
-    
+    - 新增並編寫 webpack 打包規則設定檔：
+    ```bash
+    touch webpack.config.js
+    ```
+    ```vim
+    module.export = {
+        entry: './src/index.js', # 欲打包文件的進入點（路徑）
+        output: {
+            filename: 'index-bundle.js', # 打包編譯後檔案的輸出名
+        }
+    }
+    ```
